@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-carousel{
+  background-color: #415A77;
+}

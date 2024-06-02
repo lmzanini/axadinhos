@@ -8,9 +8,10 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" expand="lg" className='header-bg'>
       <Navbar.Brand href="/">
         <img
-          src="/images/Axadinhos-22-05-2024.png" // Substitua com o caminho correto da sua imagem
+          src="/images/logo-svg.svg" 
           alt="Logo Axadinhos"
-          style={{ height: '80px' }} // Ajuste a altura conforme necessário
+          style={{ height: '80px' }}
+          className='m-4'
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

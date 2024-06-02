@@ -9,7 +9,11 @@ import {
   CardFooter,
 } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faCircleArrowDown, faList } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSearch,
+  faCircleArrowDown,
+  faList,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
@@ -18,21 +22,32 @@ import productsData from "../data/productsData";
 import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
-import ModalCategorias from './ModalCategorias';
+import ModalCategorias from "./ModalCategorias";
+import { useNavigate } from 'react-router-dom';
 
 const MainContent = () => {
   const [showModal, setShowModal] = useState(false);
+  const navigate = useNavigate();
 
   const handleOpenModal = () => setShowModal(true);
   const handleCloseModal = () => setShowModal(false);
 
+  const handleNavigate = (productId) => {
+    navigate(`/product/${productId}`);
+  };
+
   return (
     <>
-      <div className="search-bg" style={{ width: "100%" }}>
+      {/* <div className="search-bg" style={{ width: "100%" }}>
         <Row className="justify-content-center">
           <Col xs={8} md={4} lg={4}>
             <InputGroup className="mb-3 mt-3">
-              <Button variant="dark" className="icon-circle" id="button-addon2" onClick={handleOpenModal}>
+              <Button
+                variant="dark"
+                className="icon-circle"
+                id="button-addon2"
+                onClick={handleOpenModal}
+              >
                 <FontAwesomeIcon icon={faList} />
               </Button>
               <Form.Control
@@ -47,7 +62,7 @@ const MainContent = () => {
           </Col>
         </Row>
         <div className="d-flex justify-content-center"></div>
-      </div>
+      </div> */}
 
       <Container>
         <Row className="justify-content-center mt-4">
@@ -63,9 +78,9 @@ const MainContent = () => {
                   <Card.Title className="text-center">
                     {product.name}
                   </Card.Title>
-                  <Card.Text className="text-center primary-color">
+                  {/* <Card.Text className="text-center primary-color">
                     R${product.price}
-                  </Card.Text>
+                  </Card.Text> */}
                 </div>
 
                 <div className="vertical-line"></div>
@@ -79,12 +94,11 @@ const MainContent = () => {
               <CardFooter className="card-footer-dark">
                 <Row>
                   <Col>
-                    <Button
-                      className="btn-primary mt-2 mb-2"
-                      href={`/product/${product.id}`}
-                    >
-                      Detalhes
-                    </Button>
+                    <button className="button mt-2 mb-2" onClick={() => handleNavigate(product.id)}>
+                      <div className="blob1"></div>
+                      <div className="blob2"></div>
+                      <div className="inner">Detalhes</div>
+                    </button>
                   </Col>
                 </Row>
               </CardFooter>

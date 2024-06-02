@@ -40,3 +40,70 @@
 .bg-carousel{
   background-color: #415A77;
 }
+
+.button {
+  cursor: pointer;
+  /* font-size: 1.6rem; */
+  border-radius: 16px;
+  border: none;
+  padding: 2px;
+  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #1b1918);
+  position: relative;
+}
+.button:active{
+  transform: scale(0.95);
+}
+.button::after {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 60%;
+  border-radius: 120px;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 20px #ffffff38;
+  z-index: -1;
+}
+
+.blob1 {
+  position: absolute;
+  width: 70px;
+  height: 100%;
+  border-radius: 16px;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(
+    circle 60px at 0% 100%,
+    /* #3fe9ff, */
+    #f49417,
+    /* #0000ff80, */
+    #ff510080,
+    transparent
+  );
+  /* box-shadow: -10px 10px 30px #0051ff2d; */
+  box-shadow: -10px 10px 30px #ff51002d;
+}
+
+.inner {
+  padding: 7px 25px;
+  border-radius: 14px;
+  color: #fff;
+  z-index: 3;
+  position: relative;
+  background: radial-gradient(circle 80px at 80% -50%, #777777, #110f0f);
+}
+.inner::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 14px;
+  background: radial-gradient(
+    circle 60px at 0% 100%,
+    #ff73001a,
+    #0000ff11,
+    transparent
+  );
+  position: absolute;
+}

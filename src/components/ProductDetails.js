@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import productsData from "../data/productsData"; // Importe a lista de produtos
 import Header from "./Header";
+import { useNavigate } from "react-router-dom";
 
 const getProductById = (id) => {
   return productsData.find((product) => product.id === parseInt(id));
@@ -12,6 +13,7 @@ const ProductDetails = () => {
   const { id } = useParams();
   const product = getProductById(id);
   const [isExpanded, setIsExpanded] = useState(false);
+  const navigate = useNavigate();
 
   if (!product) {
     return <div>Produto não encontrado</div>;
@@ -49,6 +51,10 @@ const ProductDetails = () => {
   const handleGetButtonClick = () => {
     // Redirecionar para o link fornecido pelo produto
     window.open(product.link, "_blank");
+  };
+
+  const handleNavigate = (productId) => {
+    navigate(`/product/${productId}`);
   };
 
   return (
@@ -90,13 +96,21 @@ const ProductDetails = () => {
               </div>
               <div className="card-footer">
                 <div className="d-flex justify-content-center">
-                  <Button
+                  {/* <Button
                     className="text-center"
                     variant="primary"
                     onClick={handleGetButtonClick}
                   >
                     Comprar
-                  </Button>
+                  </Button> */}
+                  <button
+                    className="button mt-2 mb-2"
+                    onClick={handleGetButtonClick}
+                  >
+                    <div className="blob1"></div>
+                    <div className="blob2"></div>
+                    <div className="inner">Comprar</div>
+                  </button>
                 </div>
               </div>
             </div>

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className='header-bg'>
+    <Navbar bg="dark" variant="dark" expand="lg" className='bg-dark'>
       <Navbar.Brand href="/">
         <img
           src="/images/logo-svg.svg" 

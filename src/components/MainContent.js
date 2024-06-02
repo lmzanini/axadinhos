@@ -23,7 +23,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 import ModalCategorias from "./ModalCategorias";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const MainContent = () => {
   const [showModal, setShowModal] = useState(false);
@@ -94,7 +94,10 @@ const MainContent = () => {
               <CardFooter className="card-footer-dark">
                 <Row>
                   <Col>
-                    <button className="button mt-2 mb-2" onClick={() => handleNavigate(product.id)}>
+                    <button
+                      className="button mt-2 mb-2"
+                      onClick={() => handleNavigate(product.id)}
+                    >
                       <div className="blob1"></div>
                       <div className="blob2"></div>
                       <div className="inner">Detalhes</div>

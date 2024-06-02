@@ -14,8 +14,8 @@ const Header = () => {
           className='m-4'
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+      <Navbar.Collapse id="basic-navbar-nav" className='m-4'>
         <Nav className="ml-auto">
           <Nav.Link href="/">Produtos</Nav.Link>
           <Nav.Link href="#about">Sobre</Nav.Link>

@@ -20,6 +20,11 @@ h1, h2, h3, h4 {
 .header-bg{
   background-color: #111111 !important;
 }
+
+.navbar-toggler{
+  margin: 5px 10px !important;
+}
+
 .search-bg{
   /* background-color: #f49417; */
   background: linear-gradient(to bottom, #111111, #f49417);

@@ -1,9 +1,11 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { useLocation } from 'react-router-dom'; // Importe o hook useLocation
 
 const Header = () => {
+  const location = useLocation(); // Obtenha a localização atual
+
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className='bg-dark'>
       <Navbar.Brand href="/">
@@ -17,9 +19,9 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav" className='m-4'>
         <Nav className="ml-auto">
-          <Nav.Link href="/">Produtos</Nav.Link>
-          <Nav.Link href="#about">Sobre</Nav.Link>
-          <Nav.Link href="#contact">Contato</Nav.Link>
+          <Nav.Link href="/" className={location.pathname === '/' ? 'active' : ''}>Produtos</Nav.Link>
+          <Nav.Link href="/PerguntasFrequentes" className={location.pathname === '/PerguntasFrequentes' ? 'active' : ''}>Perguntas Frequentes</Nav.Link>
+          {/* <Nav.Link href="#contact" className={location.pathname === '/contact' ? 'active' : ''}>Contato</Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

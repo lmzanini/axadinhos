@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-
 import Header from './components/Header';
 import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 import ProductDetails from './components/ProductDetails';
 import Sidebar from './components/Sidebar';
 import Layout from './components/Layout.js';
+import PerguntasFrequentes from './components/PerguntasFrequentes.js';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/" element={<MainContent />} />
               <Route path="/product/:id" element={<ProductDetails />} />
+              <Route path="/PerguntasFrequentes" element={<PerguntasFrequentes />} />
             </Routes>
           </Layout>
         </div>

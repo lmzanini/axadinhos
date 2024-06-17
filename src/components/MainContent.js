@@ -1,20 +1,6 @@
 import React, { useState } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Carousel,
-  Card,
-  Button,
-  CardFooter,
-} from "react-bootstrap";
+import { Container, Row, Col, Card, CardFooter } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSearch,
-  faCircleArrowDown,
-  faList,
-} from "@fortawesome/free-solid-svg-icons";
-
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 

@@ -6,7 +6,7 @@ const App = () => {
     <>
       <Container>
         {faqsData.map((item) => (
-          <div class="card-perguntas">
+          <div class="card-perguntas mt-4">
             <h5 class="p-4">{item.pergunta}</h5>
             <p class="p-4">{item.resposta}</p>
           </div>

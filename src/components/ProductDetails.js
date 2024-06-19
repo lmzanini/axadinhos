@@ -24,7 +24,7 @@ const ProductDetails = () => {
   };
 
   // Processar descrição para quebrar em linhas e limitar caracteres
-  const maxChar = 300;
+  const maxChar = 100;
   const descriptionLines = product.description
     .split(";")
     .map((line) => line.trim());
@@ -75,7 +75,7 @@ const ProductDetails = () => {
                 <h2 class="card-title primary-color text-center">
                   {product.name}
                 </h2>
-                <div className="row">
+                <div className="row texto-justificado">
                   <div style={{ color: "white" }}>
                     {isExpanded
                       ? displayedDescription

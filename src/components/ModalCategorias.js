@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Modal, Button } from "react-bootstrap";
+import productsData from "../data/productsData";
 
 function ModalCategorias({ show, handleClose, title }) {
-  // Você pode adicionar estados e lógicas adicionais aqui se necessário
+  const uniqueCategories = [
+    ...new Set(productsData.map((categoria) => categoria.category)),
+  ];
 
   return (
     <Modal show={show} onHide={handleClose}>
@@ -10,11 +13,28 @@ function ModalCategorias({ show, handleClose, title }) {
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {/* Aqui você pode adicionar o conteúdo específico para categorias */}
-        Conteúdo do modal de categorias aqui.
+        <div
+          style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}
+        >
+          {uniqueCategories.map((category, index) => (
+            <div key={index} style={{ width: "50%" }}>
+              <label className="cyberpunk-checkbox-label mb-2">
+                <input type="checkbox" className="cyberpunk-checkbox"></input>
+                {category}
+              </label>
+            </div>
+          ))}
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
+          Filtrar
+        </Button>
+        <Button
+          variant="secondary"
+          className="btn-direita"
+          onClick={handleClose}
+        >
           Fechar
         </Button>
       </Modal.Footer>
@@ -23,4 +43,3 @@ function ModalCategorias({ show, handleClose, title }) {
 }
 
 export default ModalCategorias;
-

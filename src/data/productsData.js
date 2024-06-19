@@ -18,7 +18,7 @@ const productsData = [
       Cor: Transparente;
       Etiquetas à prova d'água de alta definição;`,
       price:100,
-      category: 'Eletrônico',
+      category: 'Cozinha',
       link: 'https://shope.ee/2q8oYkGYBv'
     },
     {
@@ -101,7 +101,7 @@ const productsData = [
       CARREGAMENTO SEM FIO;
       Nossa G-Speaker Lamp cuida de você durante toda a noite. Com um toque, você habilita o modo de luz noturna, além disso, ela carrega seu smartphone para o próximo dia com uma base de carregamento sem fio de 15 W incorporada e uma saída USB Tipo-C de 5 W para outros dispositivos móveis.;`,
       price:100,
-      category: 'Eletrônico',
+      category: 'Pet',
       link: 'http://google.com'
     },
     {

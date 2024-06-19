@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Card, CardFooter, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faFilter } from "@fortawesome/free-solid-svg-icons";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 
@@ -26,17 +26,14 @@ const MainContent = () => {
   return (
     <>
       <Container>
-        {/* <div class="search-input-container mt-4">
-          <input class="search-input" type="text" placeholder="Produto"></input>
-          <button class="search-button">
-            <FontAwesomeIcon icon={faSearch} />
-          </button>
-        </div> */}
 
         <InputGroup className="mb-4 mt-4 input-group-test">
+        <Button className="search-button" id="button-addon2" onClick={handleOpenModal}>
+            <FontAwesomeIcon icon={faFilter} />
+          </Button>
           <Form.Control
-            placeholder="Recipient's username"
-            aria-label="Recipient's username"
+            placeholder="Produto"
+            aria-label="Produto"
             aria-describedby="basic-addon2"
           />
           <Button className="search-button" id="button-addon2">

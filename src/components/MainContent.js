@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Card, CardFooter } from "react-bootstrap";
+import { Container, Row, Col, Card, CardFooter, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 
@@ -24,33 +25,25 @@ const MainContent = () => {
 
   return (
     <>
-      {/* <div className="search-bg" style={{ width: "100%" }}>
-        <Row className="justify-content-center">
-          <Col xs={8} md={4} lg={4}>
-            <InputGroup className="mb-3 mt-3">
-              <Button
-                variant="dark"
-                className="icon-circle"
-                id="button-addon2"
-                onClick={handleOpenModal}
-              >
-                <FontAwesomeIcon icon={faList} />
-              </Button>
-              <Form.Control
-                placeholder="Pesquisar Produto"
-                aria-label="Pesquisar Produto"
-                aria-describedby="basic-addon2"
-              />
-              <Button variant="dark" id="button-addon2">
-                <FontAwesomeIcon icon={faSearch} />
-              </Button>
-            </InputGroup>
-          </Col>
-        </Row>
-        <div className="d-flex justify-content-center"></div>
-      </div> */}
-
       <Container>
+        {/* <div class="search-input-container mt-4">
+          <input class="search-input" type="text" placeholder="Produto"></input>
+          <button class="search-button">
+            <FontAwesomeIcon icon={faSearch} />
+          </button>
+        </div> */}
+
+        <InputGroup className="mb-4 mt-4 input-group-test">
+          <Form.Control
+            placeholder="Recipient's username"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <Button className="search-button" id="button-addon2">
+            <FontAwesomeIcon icon={faSearch} />
+          </Button>
+        </InputGroup>
+
         <Row className="justify-content-center mt-4">
           {productsData.map((product) => (
             <Card className="card-bg" key={product.id}>

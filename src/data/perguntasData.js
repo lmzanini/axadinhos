@@ -1,7 +1,7 @@
 const faqsData = [
   {
     id: 1,
-    pergunta: "O Axadinhos é confiável",
+    pergunta: "O Axadinhos é confiável?",
     resposta: "Sim. O Axadinhos é confiável. Nossa missão é achar os melhores produtos da Shoppee, não vendemos nada, apenas achamos os melhores produtos e disponibilizamos."
   },
   // {

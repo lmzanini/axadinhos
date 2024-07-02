@@ -1,10 +1,10 @@
 const productsData = [
-    {
-      id: 1,
-      name: "Porta Mantimentos",
-      image: "/images/1.jpg",
-      location: "/images/shoppee.png",
-      description:`Seus alimentos armazenados em potes cheios de estilo;
+  {
+    id: 1,
+    name: "Porta Mantimentos",
+    image: "/images/1.jpg",
+    location: "/images/shoppee.png",
+    description: `Seus alimentos armazenados em potes cheios de estilo;
       Ótimo armazenamento;
       Capacidade dos potes;
       Arroz: 2,2 litros; 
@@ -17,16 +17,16 @@ const productsData = [
       Material: Acrílico;
       Cor: Transparente;
       Etiquetas à prova d'água de alta definição;`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://shope.ee/2q8oYkGYBv'
-    },
-    {
-      id: 2,
-      name: "Câmera de Drone 4k",
-      image: "/images/2.jpg",
-      location: "/images/shoppee.png",
-      description:`Resolução de captura de vídeo de vídeo de 4096*2160;
+    price: 100,
+    category: "Cozinha",
+    link: "https://shope.ee/2q8oYkGYBv",
+  },
+  {
+    id: 2,
+    name: "Câmera de Drone 4k",
+    image: "/images/2.jpg",
+    location: "/images/shoppee.png",
+    description: `Resolução de captura de vídeo de vídeo de 4096*2160;
       Cor preta, cinza, laranja;
       Funções básicas: comutação de câmera dupla, função de configuração de altura, aeronave dobrável, giroscópio de seis vias, decolagem de um botão, desembarque de um botão, ascente e descida, frente e para trás, voar esquerdo e direito, girar, modo sem cabeça, fotografia de gestos, Gravação de vídeo de gravidade e gravação de vídeo de emergência, parada de emergência, vôo de trajetória, detecção de gravidade e fotografia automática.;
       Bateria remota: bateria AA * 3 (auto fornecida);
@@ -56,16 +56,16 @@ const productsData = [
       Instruções * 1;
       Capa protetora * 4;
       Instruções * 1`,
-      price:100,
-      category: 'Eletrônico',
-      link: 'https://shope.ee/AKEpVFIcc2'
-    },
-    {
-      id: 3,
-      name: "Caixinha De Som G-speaker smart",
-      image: "/images/3.jpg",
-      location: "/images/shoppee.png",
-      description:`PARA O CARREGAMENTO SEM FIO FUNCIONAR, O SOM DEVE ESTAR CONECTADO NA TOMADA!! ;
+    price: 100,
+    category: "Eletrônico",
+    link: "https://shope.ee/AKEpVFIcc2",
+  },
+  {
+    id: 3,
+    name: "Caixinha De Som G-speaker smart",
+    image: "/images/3.jpg",
+    location: "/images/shoppee.png",
+    description: `PARA O CARREGAMENTO SEM FIO FUNCIONAR, O SOM DEVE ESTAR CONECTADO NA TOMADA!! ;
       VERIFIQUE TAMBÉM SE O SEU APARELHO É COMPATÍVEL PARA CARREGAMENTO POR INDUÇÃO;
       
       Luminária Caixa De Som E Carregador;
@@ -78,16 +78,16 @@ const productsData = [
       
       CARREGAMENTO SEM FIO;
       Nossa G-Speaker Lamp cuida de você durante toda a noite. Com um toque, você habilita o modo de luz noturna, além disso, ela carrega seu smartphone para o próximo dia com uma base de carregamento sem fio de 15 W incorporada e uma saída USB Tipo-C de 5 W para outros dispositivos móveis.;`,
-      price:100,
-      category: 'Eletrônico',
-      link: 'https://s.shopee.com.br/7Uue9lH3JU'
-    },
-    {
-      id: 4,
-      name: "Varal De Chão Dobrável Portátil",
-      image: "/images/varal.jfif",
-      location: "/images/shoppee.png",
-      description:`Varal De Chão Grande
+    price: 100,
+    category: "Eletrônico",
+    link: "https://s.shopee.com.br/7Uue9lH3JU",
+  },
+  {
+    id: 4,
+    name: "Varal De Chão Dobrável Portátil",
+    image: "/images/varal.jfif",
+    location: "/images/shoppee.png",
+    description: `Varal De Chão Grande
 
       O varal de roupa aço dobrável vertical conta com prateleiras com regulagem de altura, e elas possuem 4 varas de aço de 1 cm cada, a base do varal é composta por 4 rodinhas, permitindo uma facilidade maior na mobilidade.;
       
@@ -112,31 +112,31 @@ const productsData = [
       
       Plástico;
       Aço;`,
-      price:100,
-      category: 'Casa',
-      link: 'https://s.shopee.com.br/6KjQn6LPGa'
-    },
-    {
-      id: 5,
-      name: "Kit 2 Prateleiras Com Adesivos Para Parede",
-      image: "/images/prateleira.jfif",
-      location: "/images/shoppee.png",
-      description:`Indispensável para deixar seu ambiente mais bonito e funcional. O suporte multiuso serve tanto para seu banho para colocar seus perfumes, fracos, 
+    price: 100,
+    category: "Casa",
+    link: "https://s.shopee.com.br/6KjQn6LPGa",
+  },
+  {
+    id: 5,
+    name: "Kit 2 Prateleiras Com Adesivos Para Parede",
+    image: "/images/prateleira.jfif",
+    location: "/images/shoppee.png",
+    description: `Indispensável para deixar seu ambiente mais bonito e funcional. O suporte multiuso serve tanto para seu banho para colocar seus perfumes, fracos, 
       esponjas, shampoo e vários outros utensílios, quanto para sua cozinha.;
       
       Fácil de instalar, acompanha adesivo para fixação na parede sem necessitar de furos!;
       
       *APÓS INSTALAÇÃO, AGUARDE 24H PARA UTILIZAR O SUPORTE.;`,
-      price:100,
-      category: 'Banheiro',
-      link: 'https://s.shopee.com.br/6KjQnlVNeZ'
-    },
-    {
-      id: 6,
-      name: "Seladora à Vácuo",
-      image: "/images/seladora.jfif",
-      location: "/images/shoppee.png",
-      description:`PRODUTOS COM GARANTIA;
+    price: 100,
+    category: "Banheiro",
+    link: "https://s.shopee.com.br/6KjQnlVNeZ",
+  },
+  {
+    id: 6,
+    name: "Seladora à Vácuo",
+    image: "/images/seladora.jfif",
+    location: "/images/shoppee.png",
+    description: `PRODUTOS COM GARANTIA;
 
       - ENVIAMOS ATÉ EM 24HRS APÓS CONFIRMAÇÃO DO PAGAMENTO;
       
@@ -163,16 +163,16 @@ const productsData = [
       Modos de Operação:;
       Embaladora a Vácuo;
       Seladora.;`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/6zz7bER2tO'
-    },
-    {
-      id: 7,
-      name: "Esfregão Triangulo Mop",
-      image: "/images/mop.jfif",
-      location: "/images/shoppee.png",
-      description:`Mop Rotativo triângulo limpeza  de vidro Poeira  Auto torção Mãos Triângulo Grátis Rotativo Flat Floor Home Limpeza 360 ;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/6zz7bER2tO",
+  },
+  {
+    id: 7,
+    name: "Esfregão Triangulo Mop",
+    image: "/images/mop.jfif",
+    location: "/images/shoppee.png",
+    description: `Mop Rotativo triângulo limpeza  de vidro Poeira  Auto torção Mãos Triângulo Grátis Rotativo Flat Floor Home Limpeza 360 ;
 
       Produto igual ao vídeo, muito grande e atinge os cantos da parede e muito alto, perfeito para quem não pode subir escadas para limpar lugares altos. Acompanha mini rodo e também leve e não cansa ao limpar. Super recomendo ajuda muito. Limpador telescópico multifuncional de haste longa e molhado para esfregar janela;
      
@@ -203,16 +203,16 @@ const productsData = [
      
      Lista de pacotes: ;
      1 x vara de esfregão + painel + 1 esfregão; `,
-      price:100,
-      category: 'Casa',
-      link: 'https://s.shopee.com.br/1B1KevpwuI'
-    },
-    {
-      id: 8,
-      name: "Seladora à Vácuo",
-      image: "/images/seladora2.jfif",
-      location: "/images/shoppee.png",
-      description:`Produto com Pronta- Entrega e higienizado. Estoque no Brasil;
+    price: 100,
+    category: "Casa",
+    link: "https://s.shopee.com.br/1B1KevpwuI",
+  },
+  {
+    id: 8,
+    name: "Seladora à Vácuo",
+    image: "/images/seladora2.jfif",
+    location: "/images/shoppee.png",
+    description: `Produto com Pronta- Entrega e higienizado. Estoque no Brasil;
 
       Aparelho eficiente, compacto e fácil de usar;
       - Possui um temporizador de selagem por calor controlado, totalmente automatizado.;
@@ -267,16 +267,16 @@ const productsData = [
       01 x Manual de instruções em inglês;
       
       01 x Cabo de Energia;`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/6AQ0cVRcTA'
-    },
-    {
-      id: 9,
-      name: "Limpador de máquina de lavar",
-      image: "/images/limpador.jfif",
-      location: "/images/shoppee.png",
-      description:`Descrição do produto em inglês após português;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/6AQ0cVRcTA",
+  },
+  {
+    id: 9,
+    name: "Limpador de máquina de lavar",
+    image: "/images/limpador.jfif",
+    location: "/images/shoppee.png",
+    description: `Descrição do produto em inglês após português;
 
       Máquina de Lavar Limpador Efervescente Sujeira Removedor De Mesa De Limpeza Profunda;
       
@@ -302,16 +302,16 @@ const productsData = [
       
       Acompanha embalagem: ;
       1 x Limpador de máquina de lavar;`,
-      price:100,
-      category: 'Lavanderia',
-      link: 'https://s.shopee.com.br/9KN2OeP9Xj'
-    },
-    {
-      id: 10,
-      name: "Tapete Luxo Felpudo",
-      image: "/images/tapete.jfif",
-      location: "/images/shoppee.png",
-      description:`Adquira o seu Tapete Felpudo de 2,00x1,50 metros agora e experimente o que é o verdadeiro conforto e elegância.;
+    price: 100,
+    category: "Lavanderia",
+    link: "https://s.shopee.com.br/9KN2OeP9Xj",
+  },
+  {
+    id: 10,
+    name: "Tapete Luxo Felpudo",
+    image: "/images/tapete.jfif",
+    location: "/images/shoppee.png",
+    description: `Adquira o seu Tapete Felpudo de 2,00x1,50 metros agora e experimente o que é o verdadeiro conforto e elegância.;
 
       Especificações:;
       
@@ -330,16 +330,16 @@ const productsData = [
       Cores e Estampas Variadas: Escolha entre uma variedade de cores e estampas para encontrar o tapete que melhor combina com a sua decoração pessoal.;
       
       Anti-Derrapante: Equipado com uma base antiderrapante, o tapete permanece seguro e no lugar, proporcionando tranquilidade em ambientes movimentados.;`,
-      price:100,
-      category: 'Casa',
-      link: 'https://s.shopee.com.br/8zkC0LaHEs'
-    },
-    {
-      id: 11,
-      name: "Cesto De Roupa Grande",
-      image: "/images/cesto.jfif",
-      location: "/images/shoppee.png",
-      description:`Nome do Produto: Cesto de Roupa;
+    price: 100,
+    category: "Casa",
+    link: "https://s.shopee.com.br/8zkC0LaHEs",
+  },
+  {
+    id: 11,
+    name: "Cesto De Roupa Grande",
+    image: "/images/cesto.jfif",
+    location: "/images/shoppee.png",
+    description: `Nome do Produto: Cesto de Roupa;
       Tamanho: 30x30x50CM/40x40x70CM;
       Cor: Rosa, Preto, Vermelho, Roxa, Azul;
        Itens Inclusos: 1 x Cesto de Roupa;
@@ -353,16 +353,16 @@ const productsData = [
       🔸Projetado especialmente para armazenamento de roupas sujas, mais durável para o seu uso diário. ;
       
       Em alguns locais do Brasil, conforme informação dos correios existem "Áreas com restrição de entrega domiciliar", por esse motivo, antes de clicar em "Comprar" entre no site dos correios e verifique se o seu endereço está dentro da área de restrição, caso positivo, você não receberá seu produto em sua residência, e você terá que retirar sua compra em uma agência dos correios próximo ao seu endereço.;`,
-      price:100,
-      category: 'Lavanderia',
-      link: 'https://s.shopee.com.br/4pud2pr2b3'
-    },
-    {
-      id: 12,
-      name: "Amolador Afiador De Facas",
-      image: "/images/amolador.jfif",
-      location: "/images/shoppee.png",
-      description:`✨Descrição Do Produto：;
+    price: 100,
+    category: "Lavanderia",
+    link: "https://s.shopee.com.br/4pud2pr2b3",
+  },
+  {
+    id: 12,
+    name: "Amolador Afiador De Facas",
+    image: "/images/amolador.jfif",
+    location: "/images/shoppee.png",
+    description: `✨Descrição Do Produto：;
       - Afiador Rápido e Prático Com Cabo Anatômico e Três Posições De Afiação, Suas Facas Sempre Afiadas Para Seu Dia a Dia, Festas e Churrascos,;
       
       1,Afiação Grossa:Destinada á Afiação De Desbaste, Ideal Para Achadas Que Estão Com Os Fios Completamente Desgastados, ;
@@ -395,16 +395,16 @@ const productsData = [
       5Coloque Uma Leve Pressão Do Fio Entre Os Discos Do Afiador,;
       
       6Passe a Lâmina Da Faca Pelo Afiador, 3-4 Puxões Farão Com Que Ela Fique Afiada;`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/6KjQpnX4cT'
-    },
-    {
-      id: 13,
-      name: "Kit 6 Formas Airfryer",
-      image: "/images/forma.jfif",
-      location: "/images/shoppee.png",
-      description:`PRODUTO PRONTA ENTREGA - ENVIO IMEDIATO!;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/6KjQpnX4cT",
+  },
+  {
+    id: 13,
+    name: "Kit 6 Formas Airfryer",
+    image: "/images/forma.jfif",
+    location: "/images/shoppee.png",
+    description: `PRODUTO PRONTA ENTREGA - ENVIO IMEDIATO!;
 
       Forma de silicone para Airfryer, fritadeira sem óleo, Micro-ondas e Forno convencional. Pode ser levada ao freezer também. Aguenta até 230 graus de temperatura e é resistente a altas temperaturas.;
       
@@ -424,16 +424,16 @@ const productsData = [
       D - 13cm x 10cm  x 4cm;
       E -  9cm  x 7,5cm  x 3,5cm;
       F - 6,5cm x 5,5cm  x 3,5cm;`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/1B1KgZ6Pp7'
-    },
-    {
-      id: 14,
-      name: "Kit De Ferramentas",
-      image: "/images/ferramenta.jfif",
-      location: "/images/shoppee.png",
-      description:`Características:;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/1B1KgZ6Pp7",
+  },
+  {
+    id: 14,
+    name: "Kit De Ferramentas",
+    image: "/images/ferramenta.jfif",
+    location: "/images/shoppee.png",
+    description: `Características:;
 
       Kit de ferramentas de 46 Peças.;
       -O kit de ferramentas com 46 peças é uma maleta com ferramentas uteis para manutenções que podem ser feitas em ambiente doméstico, para veículos, motocicletas e outros.;
@@ -476,16 +476,16 @@ const productsData = [
       - 01 Junta Universal.;
       - 01 Bit Adaptador.;
       - 01 Maleta.;`,
-      price:100,
-      category: 'Ferramentas',
-      link: 'https://s.shopee.com.br/LSDhEZbif'
-    },
-    {
-      id: 15,
-      name: "Suporte Porta Papel Higienico",
-      image: "/images/suporte-papel.jfif",
-      location: "/images/shoppee.png",
-      description:`Suporte Papel HIGIÊNICO Duplo (Para Caixa Acoplada);
+    price: 100,
+    category: "Ferramentas",
+    link: "https://s.shopee.com.br/LSDhEZbif",
+  },
+  {
+    id: 15,
+    name: "Suporte Porta Papel Higienico",
+    image: "/images/suporte-papel.jfif",
+    location: "/images/shoppee.png",
+    description: `Suporte Papel HIGIÊNICO Duplo (Para Caixa Acoplada);
 
       Marca: GCUTILIDADES;
       Disponível nas cores: Cromado;
@@ -507,16 +507,16 @@ const productsData = [
       - Altura 20 cm;
       
       - Peso aproximado: 0,24 kg;`,
-      price:100,
-      category: 'Banheiro',
-      link: 'https://s.shopee.com.br/LSDhMAEvK'
-    },
-    {
-      id: 16,
-      name: "12 Peças Utensílios De Cozinha",
-      image: "/images/utensilios.jfif",
-      location: "/images/shoppee.png",
-      description:`Especificações Técnicas:;
+    price: 100,
+    category: "Banheiro",
+    link: "https://s.shopee.com.br/LSDhMAEvK",
+  },
+  {
+    id: 16,
+    name: "12 Peças Utensílios De Cozinha",
+    image: "/images/utensilios.jfif",
+    location: "/images/shoppee.png",
+    description: `Especificações Técnicas:;
       Composição: Madeira e Silicone Térmico de alta qualidade;
       Número de peças: 12;
       Temperatura Suportada: de -30°C até 230°C;
@@ -545,16 +545,16 @@ const productsData = [
       
       Um conjunto de 12 peças único, capaz de atender a todas as suas necessidades na cozinha. Utensílios resistentes ao calor, antibacteriano, livres de cola, atóxicos, antiaderentes, fáceis de limpar e armazenar. Os utensílios são totalmente livres de BPA.;
       Warranty Type:No Warranty;`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/6KjQqhfO77'
-    },
-    {
-      id: 17,
-      name: "Cabideiro de Chão para Roupas",
-      image: "/images/cabideiro.jfif",
-      location: "/images/shoppee.png",
-      description:`Cabideiro Mancebo Para Roupas Arara;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/6KjQqhfO77",
+  },
+  {
+    id: 17,
+    name: "Cabideiro de Chão para Roupas",
+    image: "/images/cabideiro.jfif",
+    location: "/images/shoppee.png",
+    description: `Cabideiro Mancebo Para Roupas Arara;
 
       O Mancebo Cabideiro de Chão possui 12 ganchos resistentes, ideal para pendurar casacos, blusas, cachecóis, Bons, Chapéu, Bolsas, Guarda-Chuva, Mochilas entre outros objetos de forma prática e fácil.;
       
@@ -582,16 +582,16 @@ const productsData = [
        Estrutura feita em metal;
        Fácil De Montar;
        Acompanha Manual.`,
-      price:100,
-      category: 'Casa',
-      link: 'https://s.shopee.com.br/3q2QMgD6GG'
-    },
-    {
-      id: 18,
-      name: "Pano De Prato",
-      image: "/images/pano.jfif",
-      location: "/images/shoppee.png",
-      description:`* Kit 10 Panos de Prato ou Pia Estampado - Guardanapo - 100% algodão*;
+    price: 100,
+    category: "Casa",
+    link: "https://s.shopee.com.br/3q2QMgD6GG",
+  },
+  {
+    id: 18,
+    name: "Pano De Prato",
+    image: "/images/pano.jfif",
+    location: "/images/shoppee.png",
+    description: `* Kit 10 Panos de Prato ou Pia Estampado - Guardanapo - 100% algodão*;
 
       Encante-se com este conjunto incrível de 10 panos de prato estampados, perfeitos para adicionar um toque de estilo à sua cozinha! Feitos com 100% algodão!;
       
@@ -606,16 +606,16 @@ const productsData = [
       
       ------------------------------------------;
       Para mais dúvidas, nós da Djuli estaremos à disposição para ajudá-los!`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/5KrE9irFaN'
-    },
-    {
-      id: 19,
-      name: "Manta Casal",
-      image: "/images/manta.jfif",
-      location: "/images/shoppee.png",
-      description:`Transforme Seu Lar com as lindas MANTA MICROFIBRA da TAPEMESA;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/5KrE9irFaN",
+  },
+  {
+    id: 19,
+    name: "Manta Casal",
+    image: "/images/manta.jfif",
+    location: "/images/shoppee.png",
+    description: `Transforme Seu Lar com as lindas MANTA MICROFIBRA da TAPEMESA;
 
       🚀 Envio Imediato: Faça seu pedido hoje e ele será enviado no mesmo dia! Com a fabricação própria da TAPEMESA, garantimos não só rapidez, mas também o melhor preço do mercado e qualidade incomparável.;
       
@@ -634,16 +634,16 @@ const productsData = [
       🏠 Impressione Suas Visitas: Deixe suas visitas de queixo caído com a beleza e o aconchego que nossa manta trará para sua casa.;
       
       ⏰ Estoque Limitado - A Hora de Agir é Agora!: Nosso estoque é altamente procurado e pode acabar a qualquer momento. Não perca a oportunidade de transformar seu lar com as mantas queridinhas do momento.`,
-      price:100,
-      category: 'Quarto',
-      link: 'https://s.shopee.com.br/2q9tBDpXpA'
-    },
-    {
-      id: 20,
-      name: "Mop Spray Rodo",
-      image: "/images/mop-spray.jfif",
-      location: "/images/shoppee.png",
-      description:`Mop Spray Com Reservatório;
+    price: 100,
+    category: "Quarto",
+    link: "https://s.shopee.com.br/2q9tBDpXpA",
+  },
+  {
+    id: 20,
+    name: "Mop Spray Rodo",
+    image: "/images/mop-spray.jfif",
+    location: "/images/shoppee.png",
+    description: `Mop Spray Com Reservatório;
 
       Esfregão Mop com Reservatório  ;
       Esse esfregão Mop tem um sistema de reservatório para armazenar água ou produtos de limpeza, tornando suas faxinas muito mais práticas e rápidas. Libere o produto ao mesmo tempo que faz a limpeza do seu piso, azulejo, vidraça, espelho e vidros em geral, através de uma alavanca no cabo do Mop. Economize tempo e garanta mais agilidade na higienização da sua casa. Tem base articulada e alcança cantos mais difíceis com o refil em microfibra.  ;
@@ -656,16 +656,16 @@ const productsData = [
       - Cor: Azul;
       
       CONTÉM: 01 Esfregão Mop com Reservatório.`,
-      price:100,
-      category: 'Casa',
-      link: 'https://s.shopee.com.br/8f7g8OQpIj'
-    },
-    {
-      id: 21,
-      name: "Escova Eletrica de Limpeza",
-      image: "/images/escova-eletrica.jfif",
-      location: "/images/shoppee.png",
-      description:`Escova Eletrica de Limpeza 5 em 1 Sem Fio Limpador Multiuso Pratico Para Cozinha , Banheiro prático ;
+    price: 100,
+    category: "Casa",
+    link: "https://s.shopee.com.br/8f7g8OQpIj",
+  },
+  {
+    id: 21,
+    name: "Escova Eletrica de Limpeza",
+    image: "/images/escova-eletrica.jfif",
+    location: "/images/shoppee.png",
+    description: `Escova Eletrica de Limpeza 5 em 1 Sem Fio Limpador Multiuso Pratico Para Cozinha , Banheiro prático ;
 
       Escova Eletrica de Limpeza 5 em 1 USB;
       Deixe seu cotidiano corrido mais prático, com o produto você pode perder tempo e ter mais eficiência na limpeza. ;
@@ -680,16 +680,16 @@ const productsData = [
       -1 cabeça de esponja;
       -1 capa de pano;
       -1 gancho`,
-      price:100,
-      category: 'Cozinha',
-      link: 'https://s.shopee.com.br/6pg1xBchf7'
-    },
-    {
-      id: 22,
-      name: "Projetor 4K",
-      image: "/images/projetor.jfif",
-      location: "/images/shoppee.png",
-      description:`**Projetor Inteligente HY300 PRO: Suporte 4K, Android 11, Brilho de 160 ANSI**;
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/6pg1xBchf7",
+  },
+  {
+    id: 22,
+    name: "Projetor 4K",
+    image: "/images/projetor.jfif",
+    location: "/images/shoppee.png",
+    description: `**Projetor Inteligente HY300 PRO: Suporte 4K, Android 11, Brilho de 160 ANSI**;
 
       Descrição do Produto:;
   Descubra o avançado projetor inteligente HY300 PRO, que oferece melhorias significativas em comparação ao modelo anterior, HY300. Equipado com o processador Allwinner H713 e o sistema operacional Android 11, o HY300 PRO proporciona uma resolução nativa de 1280*720P com suporte a 4K e brilho de 160 ANSI, garantindo uma experiência visual mais clara e brilhante.;
@@ -717,17 +717,247 @@ const productsData = [
   - 1x Manual do Usuário (Inglês);
   
   Com funcionalidades superiores como a adição de um slot para cartão TF, maior brilho e melhor conectividade sem fio, o HY300 PRO é a escolha ideal para cinema em casa, atividades ao ar livre e trabalho móvel. Compre agora e transforme sua experiência de entretenimento e produtividade com o HY300 PRO!`,
-      price:100,
-      category: 'Casa',
-      link: 'https://s.shopee.com.br/6fMbkvkie1'
-    },
-  ];
+    price: 100,
+    category: "Casa",
+    link: "https://s.shopee.com.br/6fMbkvkie1",
+  },
+  {
+    id: 23,
+    name: "Kit 3 Garrafas",
+    image: "/images/garrafas.jfif",
+    location: "/images/shoppee.png",
+    description: `GARRAFA SQUEEZE DE ÁGUA PARA ACADEMIA: 2000ML+900ML+300ML .escolha na opção de baixo kit com 3 ou so uma garrafa de 300ml ou so 900ml ou so 2000ML;
+ 
+      ATENÇÃO!!!!outros 2 garrafa está dentro de 2L quando receber so abrir tampa e retirar ;
+      
+      Com essa incrível garrafa você manterá seu corpo hidratado durante o dia todo.;
+      Ela vem com frases motivacionais e horários que irão te lembrar de se hidratar de forma gradual  e divertida! ;
+      
+      A tampa possui vedação de borracha e trava flip, dessa  maneira  evita vazamento da sua bebida, e vem com uma alça ergonômica que você pode colocar ou tirar quando você desejar! ;
+      
+      A cores em tons degrades dá a sua garrafa aspectos únicos que garante o reconhecimento da sua garrafa em qualquer ambiente.;
+      
+      Ela é uma ótima opção para o dia a dia, para levar consigo na academia, deixar na sua casa e deixar em sua mesa de trabalho, desta forma você garantirá um corpo mais hidratado e uma vida mais saudável.;
+      
+      **O envio de cores é aleatório, não será possível escolher cor via chat !!!!!**;
+      
+      ITENS INCLUSOS:;
+      OPÇÃO KIT COM 3:;
+      
+      300 ML;
+      - 1 Garrafa Degrade;
+      
+      900 ML;
+      - 1 Garrafa Degrade ;
+      - 1folha de adesivo;
+      
+      2000 ML;
+      - 1 Garrafa Degrade;
+      - 1 Alça;
+      -1folha de adesivo normal e 1adesivo 3D ;
+      
+      *OPCAO SO UN DE 300ml;
+      -1 unidade de garrafa de 300ml;
+      sem adesivo sem canudos   ;
+       
+      *OPCAO SO UN DE 900ml;
+      -1 unidade de garrafa de 900ml;
+      tem adesivo;
+       
+      *OPCAO SO UN DE 2000ml;
+      -1 unidade de garrafa de 2000ml;
+      tem adesivo;
+      
+      QUEM SOMOS;
+      Trabalhamos com vendas online há 4anos, prezamos pelo bom atendimento e por oferecer produtos de qualidade aos nossos clientes. Damos total suporte pós venda.;
+      
+      ATENDIMENTO E SUPORTE;
+      Conte com nossa equipe para tirar suas dúvidas entes, durante e após o processo de compra. Atendimento em horário comercial.;
+      
+      GARANTIA;
+      Oferecemos garantia em todos os produtos que vendemos.;
+      
+      DEVIDO À NOVO LOTE, ALGUMAS GARRAFAS NÃO POSSUEM CANUDOS!!;
+      
+      TESTE DE QUALIDADE:;
+      Todos nossos produtos são checados e inspecionados antes do envio para o cliente, proporcionando mais segurança e qualidade para sua compra!;
+      
+      SEU ENDEREÇO ESTA CORRETO?;
+      Confira na sua conta da shopee se o seu endereço esta correto, se estiver inválido a sua compra será cancelada.;
+      
+      Por favor, grava um vídeo de unboxing após receber o produto. Se o produto for enviado errado, em falta ou danificado, o vídeo pode ser usado como uma evidência e você pode entrar em contato com nosso atendimento ao cliente para resolver o problema.;
+      
+      Olá, Bem Vindo a loja Lela Fang!!!;
+      🥰Nossos produtos são cuidadosamente selecionados e possuem o melhor preço e melhor qualidade para você!;
+      
+      💖Segui a loja para ver as novidades e promoção dos produtos!;
+      
+      ✨Sua satisfação e a nossa prioridade e a avaliação de 5 estrelas e apreciada!`,
+    price: 100,
+    category: "Utilidades",
+    link: "https://s.shopee.com.br/B988Ws4ft",
+  },
+  {
+    id: 24,
+    name: "Rastreador Pet",
+    image: "/images/rastreador.jfif",
+    location: "/images/shoppee.png",
+    description: `Protocolo de comunicação: Bluetooth;
 
-  const searchProductsByName = (name) => {
-    return productsData.filter((product) =>
-      product.name.toLowerCase().includes(name.toLowerCase())
-    );
-  };
+    Distância de trabalho: menos de 10 barreiras;
+    
+    Pacote Inclui:1x Rastreador GPS;
+    Tamanho: 42x40x10mm;
+    
+    Descrição:;
+    
+    Os valiosos antiperdidos: O dispositivo antilosto é colocado nos idosos, crianças, e pessoas com baixo QI, e alarmes para prevenir a perda em ambientes complexos (como compras, viajando, etc.).;
+    
+    Controle remoto Selfie, controlar facilmente o telefone móvel para tirar fotos remotamente (máximo 10 metros).;
+    
+    Rastreamento de local, você pode conferir a posição atual do objeto no telefone, e pode verificar a última posição após desconectar.;
+    
+    O aparelho antiperdido é fixado em acessórios (como chaves, sacos, etc), use o aparelho antiperdido no seu pet, desfrutar do tempo de brincar, e controlar a distância próxima a qualquer momento.;
+    
+    No estado conectado, quando o aparelho anti mais vendido excede o conjunto faixa Bluetooth, o telefone móvel e o aparelho anti despertador irá alarme ao mesmo tempo.;
+    
+    Controle a função de gravação do telefone através do aparelho anti mais alto.;
+    
+    
+    
+    
+    
+    Nota:;
+    
+    Transição: 1cm=10mm=0.39pol;
+    
+    Por favor permita uma diferença levemente 0-1cm devido à medição manual.;
+    
+    As cores podem aparecer diferentes dependendo da luz e como a lista é visualizada.`,
+    price: 100,
+    category: "Pets",
+    link: "https://s.shopee.com.br/9zd3qpkJsb",
+  },
+  {
+    id: 25,
+    name: "Kit de Ferramentas",
+    image: "/images/ferramentas.jfif",
+    location: "/images/shoppee.png",
+    description: `Kit Jogo Maleta Ferramentas 200 Peças Linha Profissional/ DomésticoAplicação do Produto:O Kit De Ferramentas 200 peças é ideal para diversas aplicações diárias, além de ser extremamente útil para trabalhos profissionais ou hobbyCom suas 200 peças, você encontra equipamentos muito usados em diversas áreas, seja você eletricista, mecânico, pedreiro, marceneiro, técnico.Descrição do produto:A Maleta De Ferramentas, conta com 200 peças e é composto por ferramentas robustas e com alta qualidade, sendo fabricadas em aço carbono especial, garantindo maior vida útil e resistência.O Jogo Ferramentas, conta com peças que são produzidas de acordo com padrões internacionais.Acompanhando maleta de plástica com desgin resistente, oferecendo proteção e facilidade de transporteDados Técnicos:- Cor Maleta: Preto- Cor Ferramentas: Preto com Amarelo- Marca: Titanium- Material Ferramentas: Aço Carbono Especial- Material Maleta: Plástico Reforçado Resistente- Modelo: 05456Itens que compõe o anúncio:- 1 Lamina de Serra 10'x24 dentes- 1 Chave com encaixe sextavado 1/4'- 8 Chaves Allen Polegadas (1.5', 2', 2.5', 3', 4', 5', 5.5', 6')- 8 Chaves Allen Milimetros (1/16mm , 5/64mm, 3/32mm, 1/5mm, 5/32mm, 3/16mm, 7/32mm, 1/4mm)- 4 Chaves de Precisão- 1 Fita Isolante- 1 Arco de Serra- 1 Chave Teste- 1 Estilete- 1 Martelo- 1 Alicate de Bico Reto 6'- 1 Chave Fenda Cotoco- 1 Chave Phillips Cotoco- 3 Bits Fenda (4', 5', 6')- 3 Bits Phillips (PH1, PH2, PH3)- 3 Bits Prozidrive (PZ1, PZ2, PZ3)- 1 Bit Adaptador (AD)- 3 Bits Torx (T15, T25, T30)- 3 Bits Hex/ Allen (H3, H5, H6)- 3 Bits Fenda Quadrada Para Parafuso Robertson (S1, S2, S3)- 150 fixadores PesogramasAlturacmLarguracmComprimentocm`,
+    price: 100,
+    category: "Ferramentas",
+    link: "https://s.shopee.com.br/9KNN3p7nYe",
+  },
+  {
+    id: 26,
+    name: "Jaqueta de Inverno",
+    image: "/images/blusa.jfif",
+    location: "/images/shoppee.png",
+    description: `Jaqueta Juventude outono e inverno tamanho grande roupa térmica de lã;
+    Cinza Grande Vermelho Azul Escuro`,
+    price: 100,
+    category: "Roupas",
+    link: "https://s.shopee.com.br/4Kyh71m4dU",
+  },
+  {
+    id: 27,
+    name: "Kit 10 Potes",
+    image: "/images/potes.jfif",
+    location: "/images/shoppee.png",
+    description: `Apresentamos o Kit de 10 Potes Marmita Fitness de 400ml, a solução perfeita para suas necessidades de armazenamento de alimentos. Estes potes são ideais para quem busca praticidade e organização na preparação de refeições, seja para levar ao trabalho, academia ou para manter a dieta em dia.;
 
-  export default productsData;
-  
+    Cada pote possui uma capacidade de 400ml, proporcionando o tamanho ideal para porções individuais de refeições, lanches ou sobremesas. Feitos de material de alta qualidade e livre de BPA, garantem segurança alimentar e durabilidade. O design quadrado otimiza o espaço de armazenamento na geladeira ou no armário, facilitando a organização.;
+    
+    As tampas com trava hermética asseguram que os alimentos fiquem frescos por mais tempo e evitam vazamentos, tornando esses potes perfeitos para transportar líquidos ou alimentos com molho. O sistema de vedação é fácil de abrir e fechar, mas firme o suficiente para manter o conteúdo seguro.;
+    
+    Esses potes são compatíveis com micro-ondas, freezer e lava-louças, oferecendo versatilidade e facilitando o aquecimento e a limpeza. Com o Kit de 10 Potes Marmita Fitness de 400ml, você pode preparar suas refeições com antecedência, garantindo praticidade e economia de tempo no seu dia a dia.;
+    
+    Organize suas refeições de forma eficiente e mantenha um estilo de vida saudável com o Kit de 10 Potes Marmita Fitness de 400ml, a escolha ideal para quem valoriza qualidade, praticidade e bem-estar.;
+    
+    Dimensões: 11,8x11,8x5 cm`,
+    price: 100,
+    category: "Cozinha",
+    link: "https://s.shopee.com.br/2AuCXA0E1B",
+  },
+  {
+    id: 28,
+    name: "Fones De Ouvido bluetooth",
+    image: "/images/fones.jfif",
+    location: "/images/shoppee.png",
+    description: `Descrição do produto;
+    Nenhuma caixa;
+    Telefone sem fio i12 colorido;
+    
+    Característica principal:;
+    Bluetooth V5.0, alcance de transmissão de 10m;
+    estéreo;
+    Carregamento de contato magnético;
+    Pequeno e conveniente;
+    
+    Informação técnica;
+    
+    Frequência de resposta: 20 - 20000Hz;
+    Impedância: 32ohm;
+    Tempo de conversação: 1 a 3 horas;
+    Tempo de música: 1-3h;
+    Tempo de espera: 60h;
+    Tempo de carregamento: 1 a 2 horas;
+    Capacidade da bateria: Li-ion 300mAh;
+    Versão Bluetooth: 5.0;
+    Alcance de transmissão: 10 metros;
+    Função: MP3, bluetooth, portátil, microfone, suporte para música, redução de ruído;
+    Peso do produto: 0,08 kg;
+    Peso da embalagem: 0,12 kg;
+    
+    -- Itens Inclusos --;
+    1 par de fones de ouvido;
+    1 - Compartimento de carga;
+    1-Linha de dados;
+    1-manual chinês e inglês`,
+    price: 100,
+    category: "Eletrônico",
+    link: "https://s.shopee.com.br/2AuCXLDJOY",
+  },
+  {
+    id: 29,
+    name: "Robô Aspirador de pó",
+    image: "/images/robo.jfif",
+    location: "/images/shoppee.png",
+    description: `Descrição do produto
+
+    O robô varredor de casa inteligente tem ambos secos e molhados, funcionamento simples de um botão, adequado para limpeza do casa e escritório limpeza diária.;
+    
+    Modo de limpeza do varredor/limação/ sucção para limpeza rápida, foca em coleção de cabelos, sujeira, detritos em pisos duros.;
+    
+    1200mah bateria de alta capacidade recarga via USB. Baixo nível de ruído não afeta trabalho e estudo.;
+    
+    Design de perfil de baixo para limpeza embaixo de camas, móveis onde sujeira está caminhando. ideal para madeira, azulejos, laminados ou pedras.;
+    
+    Fácil manutenção, recipiente de poeira vazia e limpe o filtro após cada uso.;
+    
+    Especificação:;
+    
+    Material: plástico e componente eletrônico;
+    
+    Capacidade: 1200 mAh;
+    
+    Tempo de carregamento: 4 horas;
+    
+    Tempo de trabalho: 90 minutos;
+    
+    Tamanho: 19,5 x 19,5 x 5,5 cm / 7,68 x 7,68 x 2,17 polegadas;
+    
+    Modo de Limpeza: Varredor / Piscando / Sucção`,
+    price: 100,
+    category: "Eletrônico",
+    link: "https://s.shopee.com.br/40LqipchcW",
+  },
+];
+
+const searchProductsByName = (name) => {
+  return productsData.filter((product) =>
+    product.name.toLowerCase().includes(name.toLowerCase())
+  );
+};
+
+export default productsData;

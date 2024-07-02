@@ -549,6 +549,178 @@ const productsData = [
       category: 'Cozinha',
       link: 'https://s.shopee.com.br/6KjQqhfO77'
     },
+    {
+      id: 17,
+      name: "Cabideiro de Chão para Roupas",
+      image: "/images/cabideiro.jfif",
+      location: "/images/shoppee.png",
+      description:`Cabideiro Mancebo Para Roupas Arara;
+
+      O Mancebo Cabideiro de Chão possui 12 ganchos resistentes, ideal para pendurar casacos, blusas, cachecóis, Bons, Chapéu, Bolsas, Guarda-Chuva, Mochilas entre outros objetos de forma prática e fácil.;
+      
+      Ideal para quartos, closets, sala, escritório entre outros cômodos, perfeito para organizar sua casa.;
+      
+      Embalagem Cabideiro Bolsas Contém:;
+      
+       01 Tubo Superior;
+       01 Tubo Inferior;
+       04 Ganchos Superior;
+       04 Ganhos Do Meio;
+       04 Ganhos Inferior;
+       16 Ponteiras Do Gancho;
+       06 Ponteira Inferior;
+       03 Pés;
+       22 Parafusos;
+       22 Arruelas;
+       14 Tampa Do Tubo Médio;
+      
+      Observações Mancebo De Chão:;
+      
+       Serve Para Qualquer Tipo de Roupa / Acessório;
+       Pode Ser Colocado Em Qualquer Cômodo;
+       Possui Pés Antiderrapantes;
+       Estrutura feita em metal;
+       Fácil De Montar;
+       Acompanha Manual.`,
+      price:100,
+      category: 'Casa',
+      link: 'https://s.shopee.com.br/3q2QMgD6GG'
+    },
+    {
+      id: 18,
+      name: "Pano De Prato",
+      image: "/images/pano.jfif",
+      location: "/images/shoppee.png",
+      description:`* Kit 10 Panos de Prato ou Pia Estampado - Guardanapo - 100% algodão*;
+
+      Encante-se com este conjunto incrível de 10 panos de prato estampados, perfeitos para adicionar um toque de estilo à sua cozinha! Feitos com 100% algodão!;
+      
+      Pano de Prato Estampado:;
+      
+      - Quantidade: 10 unidades;
+      - Tamanho: 60 cm de comprimento x 36 cm de largura;
+      - Material: 100% algodão;
+      - Estilo: Colorido e estampado ou branco e estampado;
+      
+      Renove sua cozinha com elegância e praticidade adquirindo agora este conjunto exclusivo de panos de prato estampados. Não perca tempo, adicione este conjunto à sua sacola e transforme sua rotina na cozinha!;
+      
+      ------------------------------------------;
+      Para mais dúvidas, nós da Djuli estaremos à disposição para ajudá-los!`,
+      price:100,
+      category: 'Cozinha',
+      link: 'https://s.shopee.com.br/5KrE9irFaN'
+    },
+    {
+      id: 19,
+      name: "Manta Casal",
+      image: "/images/manta.jfif",
+      location: "/images/shoppee.png",
+      description:`Transforme Seu Lar com as lindas MANTA MICROFIBRA da TAPEMESA;
+
+      🚀 Envio Imediato: Faça seu pedido hoje e ele será enviado no mesmo dia! Com a fabricação própria da TAPEMESA, garantimos não só rapidez, mas também o melhor preço do mercado e qualidade incomparável.;
+      
+      💰 Satisfação Garantida ou Seu Dinheiro de Volta: Nossa confiança na qualidade do nosso produto é tamanha que oferecemos total garantia de satisfação ou a devolução do seu dinheiro.;
+      
+      📏 Dimensões Perfeitas para Conforto Máximo: Nossas MANTAS medem 2.00 x1.80 metros, ideal para qualquer espaço. Oferecendo uma sensação suave ao toque, similar à seda. Você irá deitar nas nuvens!.;
+      
+      😍 Você pode lavar na máquina: Coloque a sua manta na máquina de lavar e pronto... Terá ela tão linda e cheirosa que vai parecer que você acabou de comprar!.;
+      
+      🛡️ Qualidade e Segurança: Nossas Mantas são Microfibra, antialérgicos, e não sujam facilmente. E mais, eles podem ser lavados na máquina, garantindo praticidade e durabilidade.;
+      
+      🏆 Mais de 500.000 Mantas Vendidas no Brasil: Junte-se à vasta gama de clientes satisfeitos que escolheram a TAPEMESA. Com mais de meio milhão de mantas vendidas, nossa reputação fala por si.;
+      
+      🔁 Clientes Fiéis: 95% dos nossos clientes retornam para mais compras, comprovando que somos a melhor opção do mercado.;
+      
+      🏠 Impressione Suas Visitas: Deixe suas visitas de queixo caído com a beleza e o aconchego que nossa manta trará para sua casa.;
+      
+      ⏰ Estoque Limitado - A Hora de Agir é Agora!: Nosso estoque é altamente procurado e pode acabar a qualquer momento. Não perca a oportunidade de transformar seu lar com as mantas queridinhas do momento.`,
+      price:100,
+      category: 'Quarto',
+      link: 'https://s.shopee.com.br/2q9tBDpXpA'
+    },
+    {
+      id: 20,
+      name: "Mop Spray Rodo",
+      image: "/images/mop-spray.jfif",
+      location: "/images/shoppee.png",
+      description:`Mop Spray Com Reservatório;
+
+      Esfregão Mop com Reservatório  ;
+      Esse esfregão Mop tem um sistema de reservatório para armazenar água ou produtos de limpeza, tornando suas faxinas muito mais práticas e rápidas. Libere o produto ao mesmo tempo que faz a limpeza do seu piso, azulejo, vidraça, espelho e vidros em geral, através de uma alavanca no cabo do Mop. Economize tempo e garanta mais agilidade na higienização da sua casa. Tem base articulada e alcança cantos mais difíceis com o refil em microfibra.  ;
+      
+      ESPECIFICAÇÕES:;
+      - Material: Plástico, Aço Inox e Poliéster ;
+      - Tamanho: 130cm comprimento Com dispense Com Reservatório ;
+      - Tamanho da área do refil:  38,5cm x 11,5cm;
+      - Capacidade: 350ml;
+      - Cor: Azul;
+      
+      CONTÉM: 01 Esfregão Mop com Reservatório.`,
+      price:100,
+      category: 'Casa',
+      link: 'https://s.shopee.com.br/8f7g8OQpIj'
+    },
+    {
+      id: 21,
+      name: "Escova Eletrica de Limpeza",
+      image: "/images/escova-eletrica.jfif",
+      location: "/images/shoppee.png",
+      description:`Escova Eletrica de Limpeza 5 em 1 Sem Fio Limpador Multiuso Pratico Para Cozinha , Banheiro prático ;
+
+      Escova Eletrica de Limpeza 5 em 1 USB;
+      Deixe seu cotidiano corrido mais prático, com o produto você pode perder tempo e ter mais eficiência na limpeza. ;
+      
+      100% novo e de qualidade superior.;
+      Material: ABS + nylon;
+      
+      Tamanho: 17,5*7.4*26cm;
+      Inclui: ;
+      -1 Conjunto;
+      -1 escova elétrica;
+      -1 cabeça de esponja;
+      -1 capa de pano;
+      -1 gancho`,
+      price:100,
+      category: 'Cozinha',
+      link: 'https://s.shopee.com.br/6pg1xBchf7'
+    },
+    {
+      id: 22,
+      name: "Projetor 4K",
+      image: "/images/projetor.jfif",
+      location: "/images/shoppee.png",
+      description:`**Projetor Inteligente HY300 PRO: Suporte 4K, Android 11, Brilho de 160 ANSI**;
+
+      Descrição do Produto:;
+  Descubra o avançado projetor inteligente HY300 PRO, que oferece melhorias significativas em comparação ao modelo anterior, HY300. Equipado com o processador Allwinner H713 e o sistema operacional Android 11, o HY300 PRO proporciona uma resolução nativa de 1280*720P com suporte a 4K e brilho de 160 ANSI, garantindo uma experiência visual mais clara e brilhante.;
+  
+  🚀 **Características Principais**:;
+  - **Processador e GPU Avançados**: Equipado com o processador Allwinner H713 Quad-core ARM Cortex-A53 e GPU Mali-G31, suporta OpenGL ES3.2, Vulkan 1.1 e OpenCL2.0 para um desempenho gráfico eficiente e operação suave.;
+  - **Resolução e Brilho Superiores**: Resolução nativa de 1280*720P com suporte a 4K e um brilho de 160 ANSI para imagens luminosas e nítidas.;
+  - **Projeção Ajustável de 180°**: Ajuste o ângulo de projeção até 180° para obter a visualização perfeita em qualquer ambiente.;
+  - **Conectividade Moderna**: Wi-Fi dual-band 2.4G/5.8G e Bluetooth 5.0 para uma conexão rápida e estável.;
+  - **Portátil e Conveniente**: Design leve e compacto, ideal para uso ao ar livre e fácil de transportar.;
+  - **Longa Vida Útil da Lâmpada**: Até 50.000 horas de uso, reduzindo a necessidade de substituição frequente.;
+  - **Suporte para Cartão TF**: Novidade no HY300 PRO, oferece mais opções de armazenamento e reprodução.;
+  
+  🎨 **Especificações Técnicas**:;
+  - **Modelo**: HY300 PRO;
+  - **Tecnologia de Exibição**: LCD TFT de 2.69 polegadas;
+  - **Sistema Operacional**: Android 11;
+  - **Conexões**: Porta de carregamento USB-C com suporte a carregamento rápido;
+  - **Dimensões e Peso**: 102 x 101 x 40 mm; 0.31 kg;
+  
+  📦 **Conteúdo da Embalagem**:;
+  - 1x Projetor Inteligente HY300 PRO;
+  - 1x Cabo de Carregamento USB-C;
+  - 1x Controle Remoto;
+  - 1x Manual do Usuário (Inglês);
+  
+  Com funcionalidades superiores como a adição de um slot para cartão TF, maior brilho e melhor conectividade sem fio, o HY300 PRO é a escolha ideal para cinema em casa, atividades ao ar livre e trabalho móvel. Compre agora e transforme sua experiência de entretenimento e produtividade com o HY300 PRO!`,
+      price:100,
+      category: 'Casa',
+      link: 'https://s.shopee.com.br/6fMbkvkie1'
+    },
   ];
   export default productsData;
   

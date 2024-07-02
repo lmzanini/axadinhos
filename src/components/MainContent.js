@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Card, CardFooter, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faFilter, faArrowRight, faArrowLeft; } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faFilter, faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 

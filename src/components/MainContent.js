@@ -58,7 +58,7 @@ const MainContent = () => {
 
         <Button className="search-button m-2" onClick={handlePrevPage}><FontAwesomeIcon icon={faArrowLeft} /></Button>
         {Array.from({ length: Math.ceil(productsData.length / cardsPerPage) }, (_, index) => (
-          <Button className="search-button m-2" key={index + 1} onClick={() => setCurrentPage(index + 1)}>{index + 1}</Button>
+          <Button key={index + 1} onClick={() => setCurrentPage(index + 1)} className={`search-button m-2 ${currentPage === index + 1 ? "active-page" : ""}`}>{index + 1}</Button>
         ))}
         <Button className="search-button m-2" onClick={handleNextPage}><FontAwesomeIcon icon={faArrowRight} /></Button>
 
@@ -108,7 +108,7 @@ const MainContent = () => {
 
         <Button className="search-button m-2" onClick={handlePrevPage}><FontAwesomeIcon icon={faArrowLeft} /></Button>
         {Array.from({ length: Math.ceil(productsData.length / cardsPerPage) }, (_, index) => (
-          <Button className="search-button m-2" key={index + 1} onClick={() => setCurrentPage(index + 1)}>{index + 1}</Button>
+          <Button key={index + 1} onClick={() => setCurrentPage(index + 1)} className={`search-button m-2 ${currentPage === index + 1 ? "active-page" : ""}`}>{index + 1}</Button>
         ))}
         <Button className="search-button m-2" onClick={handleNextPage}><FontAwesomeIcon icon={faArrowRight} /></Button>
 

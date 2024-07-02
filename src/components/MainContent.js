@@ -17,11 +17,22 @@ const MainContent = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (event) => {
-    setSearchTerm(event.target.value.toLowerCase());
+    setSearchTerm(event.target.value);
+  };
+
+  const [selectedCategories, setSelectedCategories] = useState([]);
+
+  const handleCategoryFilter = (category) => {
+    if (selectedCategories.includes(category)) {
+      setSelectedCategories(selectedCategories.filter((cat) => cat !== category));
+    } else {
+      setSelectedCategories([...selectedCategories, category]);
+    }
   };
 
   const filteredProducts = productsData.filter((product) =>
-    product.name.toLowerCase().includes(searchTerm)
+    (searchTerm === "" || product.name.toLowerCase().includes(searchTerm.toLowerCase())) &&
+    (selectedCategories.length === 0 || selectedCategories.includes(product.category))
   );
 
   const [showModal, setShowModal] = useState(false);
@@ -130,6 +141,8 @@ const MainContent = () => {
         show={showModal}
         handleClose={handleCloseModal}
         title="Categorias"
+        uniqueCategories={Array.from(new Set(productsData.map(product => product.category)))}
+        handleCategoryFilter={handleCategoryFilter}
       />
       {/* <Footer /> */}
     </>

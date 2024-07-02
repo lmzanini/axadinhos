@@ -4,12 +4,20 @@ import { useParams } from "react-router-dom";
 import productsData from "../data/productsData"; // Importe a lista de produtos
 import Header from "./Header";
 import { useNavigate } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
 const getProductById = (id) => {
   return productsData.find((product) => product.id === parseInt(id));
 };
 
 const ProductDetails = () => {
+  // const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1); // Voltar uma página
+  };
+
+
   const { id } = useParams();
   const product = getProductById(id);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -96,21 +104,25 @@ const ProductDetails = () => {
               </div>
               <div className="card-footer">
                 <div className="d-flex justify-content-center">
-                  {/* <Button
-                    className="text-center"
-                    variant="primary"
+                <Button
+                    className="search-button m-2"
+                    onClick={handleGoBack}
+                  >
+                    {/* <div className="blob1"></div> */}
+                    {/* <div className="blob2"></div> */}
+                    {/* <div className="inner">Voltar</div> */}
+                    Voltar
+                  </Button>
+                  <Button
+                    className="search-button m-2"
                     onClick={handleGetButtonClick}
                   >
+                    {/* <div className="blob1"></div> */}
+                    {/* <div className="blob2"></div> */}
+                    {/* <div className="inner">Comprar</div> */}
                     Comprar
-                  </Button> */}
-                  <button
-                    className="button mt-2 mb-2"
-                    onClick={handleGetButtonClick}
-                  >
-                    <div className="blob1"></div>
-                    <div className="blob2"></div>
-                    <div className="inner">Comprar</div>
-                  </button>
+                  </Button>
+                  
                 </div>
               </div>
             </div>

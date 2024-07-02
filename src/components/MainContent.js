@@ -6,6 +6,7 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 
 import productsData from "../data/productsData";
+import searchProductsByName from "../data/productsData"
 import Header from "./Header";
 import Footer from "./Footer";
 import Sidebar from "./Sidebar";
@@ -13,6 +14,16 @@ import ModalCategorias from "./ModalCategorias";
 import { useNavigate } from "react-router-dom";
 
 const MainContent = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value.toLowerCase());
+  };
+
+  const filteredProducts = productsData.filter((product) =>
+    product.name.toLowerCase().includes(searchTerm)
+  );
+
   const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
 
@@ -28,7 +39,7 @@ const MainContent = () => {
 
   const indexOfLastCard = currentPage * cardsPerPage;
   const indexOfFirstCard = indexOfLastCard - cardsPerPage;
-  const currentCards = productsData.slice(indexOfFirstCard, indexOfLastCard);
+  const currentCards = filteredProducts.slice(indexOfFirstCard, indexOfLastCard);
 
   const handleNextPage = () => {
     setCurrentPage(currentPage + 1);
@@ -47,7 +58,9 @@ const MainContent = () => {
             <FontAwesomeIcon icon={faFilter} />
           </Button>
           <Form.Control
-            placeholder="Produto"
+            placeholder="Buscar por nome"
+            value={searchTerm}
+            onChange={handleSearch}
             aria-label="Produto"
             aria-describedby="basic-addon2"
           />
@@ -57,7 +70,7 @@ const MainContent = () => {
         </InputGroup>
 
         <Button className="search-button m-2" onClick={handlePrevPage}><FontAwesomeIcon icon={faArrowLeft} /></Button>
-        {Array.from({ length: Math.ceil(productsData.length / cardsPerPage) }, (_, index) => (
+        {Array.from({ length: Math.ceil(filteredProducts.length / cardsPerPage) }, (_, index) => (
           <Button key={index + 1} onClick={() => setCurrentPage(index + 1)} className={`search-button m-2 ${currentPage === index + 1 ? "active-page" : ""}`}>{index + 1}</Button>
         ))}
         <Button className="search-button m-2" onClick={handleNextPage}><FontAwesomeIcon icon={faArrowRight} /></Button>
@@ -107,7 +120,7 @@ const MainContent = () => {
         </Row>
 
         <Button className="search-button m-2" onClick={handlePrevPage}><FontAwesomeIcon icon={faArrowLeft} /></Button>
-        {Array.from({ length: Math.ceil(productsData.length / cardsPerPage) }, (_, index) => (
+        {Array.from({ length: Math.ceil(filteredProducts.length / cardsPerPage) }, (_, index) => (
           <Button key={index + 1} onClick={() => setCurrentPage(index + 1)} className={`search-button m-2 ${currentPage === index + 1 ? "active-page" : ""}`}>{index + 1}</Button>
         ))}
         <Button className="search-button m-2" onClick={handleNextPage}><FontAwesomeIcon icon={faArrowRight} /></Button>

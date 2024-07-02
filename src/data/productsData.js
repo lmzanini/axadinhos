@@ -722,5 +722,12 @@ const productsData = [
       link: 'https://s.shopee.com.br/6fMbkvkie1'
     },
   ];
+
+  const searchProductsByName = (name) => {
+    return productsData.filter((product) =>
+      product.name.toLowerCase().includes(name.toLowerCase())
+    );
+  };
+
   export default productsData;
   

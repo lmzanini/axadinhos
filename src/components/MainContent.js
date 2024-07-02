@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Card, CardFooter, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faFilter } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faFilter, faArrowRight, faArrowLeft; } from "@fortawesome/free-solid-svg-icons";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 
@@ -23,6 +23,21 @@ const MainContent = () => {
     navigate(`/product/${productId}`);
   };
 
+  const cardsPerPage = 8;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const indexOfLastCard = currentPage * cardsPerPage;
+  const indexOfFirstCard = indexOfLastCard - cardsPerPage;
+  const currentCards = productsData.slice(indexOfFirstCard, indexOfLastCard);
+
+  const handleNextPage = () => {
+    setCurrentPage(currentPage + 1);
+  };
+
+  const handlePrevPage = () => {
+    setCurrentPage(currentPage - 1);
+  };
+
   return (
     <>
       <Container>
@@ -41,8 +56,14 @@ const MainContent = () => {
           </Button>
         </InputGroup>
 
+        <Button className="search-button m-2" onClick={handlePrevPage}><FontAwesomeIcon icon={faArrowLeft} /></Button>
+        {Array.from({ length: Math.ceil(productsData.length / cardsPerPage) }, (_, index) => (
+          <Button className="search-button m-2" key={index + 1} onClick={() => setCurrentPage(index + 1)}>{index + 1}</Button>
+        ))}
+        <Button className="search-button m-2" onClick={handleNextPage}><FontAwesomeIcon icon={faArrowRight} /></Button>
+
         <Row className="justify-content-center mt-4">
-          {productsData.map((product) => (
+          {currentCards.map((product) => (
             <Card className="card-bg" key={product.id}>
               <Card.Img
                 variant="top"
@@ -84,6 +105,13 @@ const MainContent = () => {
             </Card>
           ))}
         </Row>
+
+        <Button className="search-button m-2" onClick={handlePrevPage}><FontAwesomeIcon icon={faArrowLeft} /></Button>
+        {Array.from({ length: Math.ceil(productsData.length / cardsPerPage) }, (_, index) => (
+          <Button className="search-button m-2" key={index + 1} onClick={() => setCurrentPage(index + 1)}>{index + 1}</Button>
+        ))}
+        <Button className="search-button m-2" onClick={handleNextPage}><FontAwesomeIcon icon={faArrowRight} /></Button>
+
       </Container>
       <ModalCategorias
         show={showModal}
